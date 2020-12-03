@@ -1,0 +1,33 @@
+.content .loading {
+  margin: 0;
+  margin-bottom: 3rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 30rem;
+  height: 30rem;
+
+  padding: 2rem 0;
+
+  background: var(--color-secondary);
+
+  border-radius: 2rem;
+}
+
+.content h1 {
+  color: var(--color-text);
+  font-size: 2rem;
+}
+
+.content hr {
+  width: 25rem;
+  margin: 1.5rem 0;
+  border: 2px solid var(--color-main);
+}
+
+.content .loadingBar {
+  color: var(--color-shadow-light);
+}

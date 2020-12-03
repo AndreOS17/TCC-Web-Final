@@ -1,0 +1,45 @@
+:root {
+  font-size: 60%;
+
+  /* Colors: */
+  --color-main: #86178a;
+  --color-secondary: #333333;
+  --color-back: #555555;
+  --color-complement: #000000;
+  --color-text: #ffffff;
+  --color-shadow-light: #ffffff;
+  --color-shadow-dark: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Source Sans Pro';
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90vh;
+  max-width: 700px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 80%;
+  }
+}
